@@ -53,7 +53,7 @@ export default function Lower(){
     const [display,setdisplay] = useState([]);
     const [MainData,setdata] = useState(data);
     const [highScore,setHighScore] = useState(0);
-    const [rules,setRules] = useState(0);
+    const [rules,setRules] = useState(1);
 return(
     <div className="lower">
         <div className="lower1">
