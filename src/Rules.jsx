@@ -1,6 +1,7 @@
 import './Rules.css'
 export default function RulesSection({rules,setRules}){
     let low = document.querySelector('.lower3');
+    
     low.style.opacity = 0.2;
     return(
         <div className="explain">

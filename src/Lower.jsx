@@ -67,7 +67,7 @@ return(
             <Cards handleClick = {handleClick} display = {display} MainData = {MainData} setdisplay = {setdisplay} setdata={setdata}/>
             
         </div>
-        {rules===1?(<RulesSection rules = {rules} setRules = {setRules}/>):null}
+        {rules===1 &&document.querySelector('.lower3')!==null?(<RulesSection rules = {rules} setRules = {setRules}/>):null}
     </div>
 )
 
