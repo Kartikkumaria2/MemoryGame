@@ -28,7 +28,7 @@ export default function Lower(){
             if(highScore<count+1){
                 setHighScore(count+1);
             }
-            if(count+1==3){
+            if(count+1==12){
                 alert('Congrats you won')
                 setClicked([]),
             setCount(0);
@@ -59,8 +59,8 @@ return(
         <div className="lower1">
         <button id = "Rules" onClick = {()=>{setRules(1)}}>Rules</button>
         <div className="lower2">
-            <h4>Score:{count}</h4>
-            <h4>High Score:{highScore}</h4>
+            <h2>Score:{count}</h2>
+            <h2>High Score:{highScore}</h2>
         </div>
         </div>
         <div className="lower3">
