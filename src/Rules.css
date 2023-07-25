@@ -1,0 +1,13 @@
+.explain{
+    width:40%;
+    height:40%;
+    position:absolute;
+    margin:auto auto;
+    top:0;
+    bottom:0;
+    right: 0;
+    left:0;
+    background-color: green;
+    color:white;
+    font-size: larger;
+}

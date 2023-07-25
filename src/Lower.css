@@ -1,0 +1,23 @@
+.lower{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 9fr;
+    height:100%;
+}
+.lower1{
+    display:flex;
+    justify-content: space-between;
+}
+#Rules{
+    height:80%;
+    background-color: rgb(109, 179, 109);
+    color:white;
+}
+.lower3{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    align-content: flex-start;
+    opacity:1;
+}

@@ -1,0 +1,19 @@
+.cards{
+    display:flex;
+    flex-direction: column  ;
+    height:30%;
+    width:20%;
+    margin-bottom: 3em;
+    text-align: center;
+    
+}
+.lower3 img{
+    height:100%;
+    width:100%;
+    
+
+
+}
+p{
+    align-self: center;
+}
