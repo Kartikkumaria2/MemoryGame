@@ -46,7 +46,7 @@ export default function Lower(){
       };
       
     
-    const data = ["Jim Halpert","Pam Beesly","Barney Stinson","Michael Scott","Ted Mosbey","Darryl Philbin","Stanley Hudson","Angela Martin",
+    const data = ["Jim Halpert","Pam Beesly","Barney Stinson","Michael Scott","Homelander","Darryl Philbin","Stanley Hudson","Angela Martin",
     "Kelly Kapoor","Ryan Howard","Kevin Malone","Andy Bernard"];
     const [clicked,setClicked] = useState([])
     const [count, setCount] = useState(0);
